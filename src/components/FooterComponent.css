@@ -1,0 +1,23 @@
+.footer{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-content{
+    padding: 10px 20px;
+    display: flex;
+    justify-content:space-between;
+}
+.footer-about-title{
+    color: grey;
+    margin: 10px 0px;
+}
+.footer-help-title{
+    color: grey;
+    margin: 10px 0px;
+}
+.footer-policy-title{
+    color: grey;
+    margin: 10px 0px;
+}
