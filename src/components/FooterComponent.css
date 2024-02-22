@@ -44,6 +44,7 @@
 }
 .footer-section{
     padding: 10px 0px;
+    /* background-color: white; */
 }
 .footer-end{
     font-size: 15px;
@@ -56,6 +57,11 @@ button{
     background-color: black;
     color: white;
 }
+.footer-seller,
+.footer-helpcenter{
+    cursor: pointer;
+}
+
 .line{
     height:  2px;
     width: 100%;
