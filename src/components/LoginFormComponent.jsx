@@ -1,20 +1,23 @@
 import React from 'react'
-
+import './LoginFormComponent.css'
 function LoginForm() {
   return (
     <div>
-        <form >
+        <form className='login-form'>
+          <div className="login-content">
+          <div className='login-title'>Login Credential</div>
             <label>
-                User Name:
+                UserName
                 <input type='text'/>
             </label>
             <label>
-                Password:
+                Password
                 <input type='password'/>
             </label>
             <label>
                <button type="submit">Login</button>
             </label>
+            </div>
         </form>
     </div>
   )
