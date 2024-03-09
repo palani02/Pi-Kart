@@ -1,0 +1,31 @@
+.seller {
+    width: 100%;
+  }
+  
+  .seller-header {
+    border:2px solid red;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .seller-nav {
+    
+    display: flex;
+    justify-content: space-between; 
+  }
+  .seller-nav-left {
+    flex: 1;
+  }
+  
+  .seller-nav-right {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .seller-body {
+    margin-top: 20px;
+  }
+  
