@@ -1,11 +1,10 @@
 import React from 'react'
-import RegisterForm from './RegisterFormComponent'
-import LoginForm from './LoginFormComponent'
+import LoginFormComponent from './LoginFormComponent'
 
 function HeaderComponent() {
   return (
     <div>Pi-Kart
-      <LoginForm/>
+      <LoginFormComponent/>
     {/* <RegisterForm/> */}
     </div>
   )
