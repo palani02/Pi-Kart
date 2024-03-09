@@ -15,7 +15,13 @@
     font-size: 20px;
     margin-bottom: 20px;
 }
-
+.errormsg{
+    color: red;
+    font-size: 30px;
+}
+button:disabled{
+    background-color: grey;
+}
 label {
     display: flex;
     justify-content: space-evenly;
